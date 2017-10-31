@@ -24,7 +24,7 @@ function currentLine(lineArray) {
     return("The line is currently empty.")
   } else {
     for (var i=1; i<(lineArray.length + 1); i++) {
-      if (i = 1) {
+      if (i == 1) {
         lineString = lineString + i + ". " + lineArray[i - 1]
         console.log(lineString + " /// " + lineArray.length)
       } else {
